@@ -13,8 +13,8 @@ public class CalculatorTest {
 		Calculator obj = new Calculator();
 		int result = obj.add(2, 3);
 
-		Assert.assertEquals(5, result);
-
+		Assert.assertEquals(5, result );
+		System.out.println("Test finished");
 	}
 	
 	@Test
@@ -23,7 +23,7 @@ public class CalculatorTest {
 		Calculator obj = new Calculator();
 		int result = obj.subtract(2, 3);
 		Assert.assertEquals(-1, result);
-		
+		System.out.println("Test finished");
 	}
 
 }
